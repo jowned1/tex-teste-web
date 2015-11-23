@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Users List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">User List</div>
+
+      <!-- Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>R. Aspicuelta, 223 - Vila Madalena, São Paulo - SP, 05433-010</td>
+            <td>(11) 2197-3626</td>
+            <td><a href="file:///Users/marcoskim/Desktop/form.html" class="btn btn-info btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></td>
+            <td><button type="button" class="btn btn-info btn-sm btn-danger" data-toggle="modal" data-target="#Modal-teste"><i class="glyphicon glyphicon-trash"></i></a></td>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>R. Aspicuelta, 223 - Vila Madalena, São Paulo - SP, 05433-010</td>
+            <td>(11) 2197-3626</td>
+            <td><a href="file:///Users/marcoskim/Desktop/form.html" class="btn btn-info btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></td>
+            <td><button type="button" class="btn btn-info btn-sm btn-danger" data-toggle="modal" data-target="#Modal-teste"><i class="glyphicon glyphicon-trash"></i></a></td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>R. Aspicuelta, 223 - Vila Madalena, São Paulo - SP, 05433-010</td>
+            <td>(11) 2197-3626</td>
+            <td><a href="file:///Users/marcoskim/Desktop/form.html" class="btn btn-info btn-sm"><i class="glyphicon glyphicon-pencil"></i></a></td>
+           <td><button type="button" class="btn btn-info btn-sm btn-danger" data-toggle="modal" data-target="#Modal-teste"><i class="glyphicon glyphicon-trash"></i></a></td>
+
+           <!-- Modal -->
+			  <div class="modal fade" id="Modal-teste">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Delete User?</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>Are you Sure You want to Remove this person? &hellip;</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Save changes</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			
+        </tbody>
+      </table>
+
+       <div class="col-md-6 pull-right">
+                            <ul class="pagination pagination-sm">
+                                <li class="disabled"><a href="javascript:void(0)">«</a></li>
+                                <li class="active"><a href="javascript:void(0)">1 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="javascript:void(0)">»</a></li>
+                            </ul>
+                        </div>
+  					</div>
+
+</body>
+</html>
